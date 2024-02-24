@@ -1,0 +1,12 @@
+- type: gamePreset
+  id: SpaceTravel
+  alias:
+    - spacetravel
+    - st
+  name: space-travel
+  description: space-travel-description
+  maxPlayers: 40
+  showInVote: true
+  supportedMaps: SpaceTravelMapPool
+  rules:
+    - SpaceTravel

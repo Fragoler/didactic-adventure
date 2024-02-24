@@ -5,6 +5,7 @@
   name: survival-title
   showInVote: false # secret
   description: survival-description
+  supportedMaps: ClassicMapPool
   rules:
     - RampingStationEventScheduler
     - BasicRoundstartVariation
@@ -14,6 +15,7 @@
   name: all-at-once-title
   description: all-at-once-description
   showInVote: false
+  supportedMaps: ClassicMapPool
   rules:
     - Nukeops
     - Traitor
@@ -29,6 +31,7 @@
   name: extended-title
   showInVote: false #2boring2vote
   description: extended-description
+  supportedMaps: ClassicMapPool
   rules:
   - BasicStationEventScheduler
   - BasicRoundstartVariation
@@ -41,6 +44,7 @@
   name: greenshift-title
   showInVote: false #4boring4vote
   description: greenshift-description
+  supportedMaps: ClassicMapPool
   rules:
   - BasicRoundstartVariation
 
@@ -52,6 +56,7 @@
   name: secret-title
   showInVote: true
   description: secret-description
+  supportedMaps: ClassicMapPool
   rules:
     - Secret
 
@@ -62,6 +67,7 @@
   name: secret-title
   showInVote: false #Admin Use
   description: secret-description
+  supportedMaps: ClassicMapPool
   rules:
     - BasicStationEventScheduler
 
@@ -72,6 +78,7 @@
   name: secret-title
   showInVote: false #Admin Use
   description: secret-description
+  supportedMaps: ClassicMapPool
 
 - type: gamePreset
   id: Sandbox
@@ -81,6 +88,7 @@
   description: sandbox-description
   showInVote: false # Not suitable for use without admin intervention, since entity spamming can quickly crash a server
   maxPlayers: 5
+  supportedMaps: ClassicMapPool
   rules:
     - Sandbox
 
@@ -91,6 +99,7 @@
   name: traitor-title
   description: traitor-description
   showInVote: false
+  supportedMaps: ClassicMapPool
   rules:
     - Traitor
     - BasicStationEventScheduler
@@ -116,6 +125,7 @@
   name: nukeops-title
   description: nukeops-description
   showInVote: false
+  supportedMaps: ClassicMapPool
   rules:
     - Nukeops
     - BasicStationEventScheduler
@@ -130,6 +140,7 @@
   name: rev-title
   description: rev-description
   showInVote: false
+  supportedMaps: ClassicMapPool
   rules:
     - Revolutionary
     - BasicStationEventScheduler
@@ -146,6 +157,7 @@
   name: zombie-title
   description: zombie-description
   showInVote: false
+  supportedMaps: ClassicMapPool
   rules:
   - Zombie
   - BasicStationEventScheduler
@@ -158,6 +170,7 @@
   name: pirates-title
   description: pirates-description
   showInVote: false
+  supportedMaps: ClassicMapPool
   rules:
     - Pirates
     - BasicStationEventScheduler
